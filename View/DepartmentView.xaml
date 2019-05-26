@@ -5,11 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppWPF.View"
         mc:Ignorable="d"
-        Title="DepartmentView" Height="450" Width="800">
+        Title="{Binding Titulo}" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Content="{Binding Titulo}" Grid.Row="0"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Name" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Grid.Row="0" Grid.Column="1" IsReadOnly="{Binding IsReadOnlyName}" Text="{Binding Name}"/>
+        <Label Content="Budget" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Grid.Row="1" Grid.Column="1" IsReadOnly="{Binding IsReadOnlyBudget}" Text="{Binding Budget}"/>
+        <Label Content="Admin" Grid.Row="2" Grid.Column="0"/>
+        <TextBox Grid.Row="2" Grid.Column="1" IsReadOnly="{Binding IsReadOnlyAdmin}" Text="{Binding Admin}"/>
+        <DataGrid ItemsSource="{Binding Departments}" Grid.Row="3" Grid.ColumnSpan="2"> 
+
+        </DataGrid>
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Button Content="Add" Command="{Binding Instancia}" CommandParameter="Add"></Button>
+            <Button Content="Delete"></Button>
+            <Button Content="Update"></Button>
+            <Button Content="Save" Command="{Binding Instancia}" CommandParameter="Save"></Button>
+            <Button Content="Cancel"></Button>
+        </StackPanel>
     </Grid>
 </Window>

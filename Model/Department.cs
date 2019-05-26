@@ -10,10 +10,9 @@ namespace AppWPF.Model
     {
         public int DepartmentID { get; set; }
         public string Name { get; set; }
-        public double Budget { get; set; }
+        public Decimal Budget { get; set; }
         public DateTime StartDate { get; set; }
-        public int Administrador { get; set; }
+        public int Administrator { get; set; }
         public  virtual ICollection<Course> Courses { get; set; }//Relación uno a muchos (se aplica la interfaz "ICollection" para extender la colección de datos, pero es válido usar "List")
-
     }
 }
