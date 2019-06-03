@@ -13,13 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using AppWPF.ModelView;
 using AppWPF.View;
+using MahApps.Metro.Controls;
 
 namespace AppWPF.View
 {
     /// <summary>
     /// Lógica de interacción para DepartmentView.xaml
     /// </summary>
-    public partial class DepartmentView : Window
+    public partial class DepartmentView : MetroWindow
     {
         public DepartmentView()
         {

@@ -20,3 +20,10 @@ C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\
 C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\obj\Debug\AppWPF.csproj.CopyComplete
 C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\obj\Debug\AppWPF.exe
 C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\obj\Debug\AppWPF.pdb
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\bin\Debug\ControlzEx.dll
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\bin\Debug\MahApps.Metro.dll
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\bin\Debug\ControlzEx.pdb
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\bin\Debug\MahApps.Metro.pdb
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\bin\Debug\MahApps.Metro.xml
+C:\Users\Jonathan Villeda\Desktop\FullStack.Net\BackEnd\Entity Framework\AppWPF\AppWPF\obj\Debug\App.baml
